@@ -2,7 +2,7 @@
 # Solar Power Output Prediction
 
 ## Overview
-This project tries to predict the total generation of AC_POWER through features like location-temperature, module-temperature, hour of day, month of year and irradiation. I have tried 3 algorithems- Linear regression, RandomForest and XGBoost, and from that i have concluded that XGBoost is most fit for this as it takes the least amount of time to predict the most accurate of results
+This project tries to predict the total generation of AC_POWER through features like location-temperature, module-temperature, hour of day, month of year and irradiation. I have tried 3 algorithems- Linear regression, RandomForest and XGBoost, and from that i have concluded that XGBoost performs best with the lowest RMSE of 46.87 and R² of 0.9858
 
 ## Dataset
 - Source: Kaggle — Solar Power Generation Data by anikannal
